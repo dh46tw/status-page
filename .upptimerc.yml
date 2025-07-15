@@ -7,6 +7,7 @@ sites:
     url: https://dh46tw.github.io/
   - name: EMCT COA CADASTRE
     url: $COA_SEARCH_CADASTRE_LATLNG
+    method: GET
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -27,5 +28,15 @@ status-website:
       content: "noindex"
   theme: night
   favicon: https://raw.githubusercontent.com/dh46tw/dh46tw.github.io/659ac6c248523f32767e205f017c188df914bfaa/static/favicon/favicon-32x32.png
+
+workflowSchedule:
+  # graphs: "0 0 * * *" # 每天午夜（00:00）產生統計圖表，更新圖表數據。
+  # responseTime: "0 23 * * *" # 每天晚上 23:00 統計/測量站點回應時間。
+  # staticSite: "0 1 * * *" # 每天凌晨 1:00 重新部署（或生成）靜態監控網頁。
+  # summary: "0 0 * * *" # 每天午夜（00:00）產生監控摘要報告。
+  # updateTemplate: "0 0 * * *" # 每天午夜更新訊息模板（如 STATUS.md 或首頁內容）。
+  # updates: "0 3 * * *" # 每天凌晨 3:00 檢查及套用 Upptime 或依賴元件的更新。
+  uptime: "*/10 * * * *" # 每 10 分鐘進行網站或 API 「存活監控」檢查任務。(預設是 5 分鐘。)
+
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
