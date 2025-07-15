@@ -5,26 +5,27 @@ repo: status-page # The name of this repository
 sites:
   - name: Code with DH
     url: https://dh46tw.github.io/
+  - name: EMCT COA CADASTRE
+    url: $COA_SEARCH_CADASTRE_LATLNG
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
   baseUrl: /status-page
-  logoUrl: https://dh46tw.github.io/img/logo-120_hu2826664897738921783.png
+  logoUrl: https://github.com/dh46tw/dh46tw.github.io/blob/659ac6c248523f32767e205f017c188df914bfaa/assets/img/logo.png
   name: DH46TW Status Monitor
-  introTitle: "A personal uptime monitor and status page built with **Upptime**, powered entirely by GitHub."
-  introMessage: This is a status page automatically generated with [Upptime](https://github.com/upptime/upptime). It runs entirely on GitHub — using Actions, Issues, and Pages — with no dedicated server required.
+  # introTitle: "A personal uptime monitor and status page built with **Upptime**, powered entirely by GitHub."
+  # introMessage: This is a status page automatically generated with [Upptime](https://github.com/upptime/upptime). It runs entirely on GitHub — using Actions, Issues, and Pages — with no dedicated server required.
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
   metaTags:
-    - name: "color-scheme"
-      content: "dark light"
     - name: "robots"
       content: "noindex"
-      
+  theme: light
+  favicon: https://github.com/dh46tw/dh46tw.github.io/blob/659ac6c248523f32767e205f017c188df914bfaa/static/favicon/favicon-32x32.png
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
