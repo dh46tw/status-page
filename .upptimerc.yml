@@ -11,8 +11,8 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
   baseUrl: /status-page
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
+  logoUrl: https://dh46tw.github.io/img/logo-120_hu2826664897738921783.png
+  name: DH46TW Status Monitor
   introTitle: "A personal uptime monitor and status page built with **Upptime**, powered entirely by GitHub."
   introMessage: This is a status page automatically generated with [Upptime](https://github.com/upptime/upptime). It runs entirely on GitHub — using Actions, Issues, and Pages — with no dedicated server required.
   navbar:
