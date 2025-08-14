@@ -36,7 +36,7 @@ workflowSchedule:
   # summary: "0 0 * * *" # 每天午夜（00:00）產生監控摘要報告。
   # updateTemplate: "0 0 * * *" # 每天午夜更新訊息模板（如 STATUS.md 或首頁內容）。
   # updates: "0 3 * * *" # 每天凌晨 3:00 檢查及套用 Upptime 或依賴元件的更新。
-  uptime: "*/10 * * * *" # 每 10 分鐘進行網站或 API 「存活監控」檢查任務。(預設是 5 分鐘。)
+  uptime: "*/5 * * * *" # 每 10 分鐘進行網站或 API 「存活監控」檢查任務。(預設是 5 分鐘。)
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
