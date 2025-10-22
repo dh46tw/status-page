@@ -22,7 +22,7 @@
     "url": "$COA_SEARCH_CADASTRE_LATLNG",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "emct-coa-cadastre",
-    "status": "up",
+    "status": "down",
     "uptime": "99.66%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -34,6 +34,7 @@
     "timeMonth": 954,
     "timeYear": 984,
     "dailyMinutesDown": {
+      "2025-10-22": 0,
       "2025-10-14": 21,
       "2025-09-05": 15,
       "2025-08-14": 116,
