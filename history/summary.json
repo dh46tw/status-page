@@ -22,17 +22,17 @@
     "url": "$COA_SEARCH_CADASTRE_LATLNG",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "emct-coa-cadastre",
-    "status": "down",
-    "uptime": "99.66%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "99.66%",
-    "time": 1024,
-    "timeDay": 693,
-    "timeWeek": 791,
-    "timeMonth": 1052,
-    "timeYear": 1026,
+    "status": "up",
+    "uptime": "99.63%",
+    "uptimeDay": "91.03%",
+    "uptimeWeek": "98.72%",
+    "uptimeMonth": "99.70%",
+    "uptimeYear": "99.63%",
+    "time": 1023,
+    "timeDay": 677,
+    "timeWeek": 775,
+    "timeMonth": 1039,
+    "timeYear": 1025,
     "dailyMinutesDown": {
       "2025-08-07": 229,
       "2025-08-06": 42,
@@ -55,7 +55,7 @@
       "2026-03-24": 63,
       "2026-06-04": 169,
       "2026-06-06": 24,
-      "2026-07-17": 0
+      "2026-07-17": 129
     }
   }
 ]
